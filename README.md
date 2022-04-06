@@ -13,7 +13,7 @@ There are 3 services created in this sample project:
 - [gateway](/gateway): this is the Spring Cloud Gateway
 - [service1](/service1): this is the service that is exposed by the gateway. This 
 service is written using [micronaut](https://micronaut.io)
-- [service2](/service2): this service is reference by service1. This 
+- [service2](/service2): this service is referenced by service1. This 
 service is written using [micronaut](https://micronaut.io)
 
 ### Requirements
@@ -22,10 +22,10 @@ service is written using [micronaut](https://micronaut.io)
 
 ### Running
 First we need to start Consul by running [run-consul.sh](run-consul.sh). This script
-uses docker to pull the latest consul image and runs it locally. After consul start,
+uses docker to pull the latest consul image and runs it locally. After consul starts,
 the UI will be available at: [http://localhost:8500](http://localhost:8500)
 
-After consul start, the other services can also start up using the following command:
+After consul starts, the other services can also start up using the following command:
 ```
 ./run-services.sh
 ```
